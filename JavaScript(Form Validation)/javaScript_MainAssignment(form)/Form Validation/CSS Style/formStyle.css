@@ -1,0 +1,15 @@
+#form{
+    align-items: center;
+    background-color: bisque;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+h5{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+span{
+    color: crimson;
+}

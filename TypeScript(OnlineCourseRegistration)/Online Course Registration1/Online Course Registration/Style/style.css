@@ -1,0 +1,19 @@
+#home{
+    display:block;
+}
+
+#register{
+    display:none;
+}
+
+#existuser{
+    display: none;
+}
+
+#course{
+    display: none;
+}
+
+#totaldays{
+    display: none;
+}

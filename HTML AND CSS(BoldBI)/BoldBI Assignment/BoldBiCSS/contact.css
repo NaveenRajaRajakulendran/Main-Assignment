@@ -1,0 +1,295 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.header{
+    height: 80px;
+    background-color: #f1f9ff;
+    z-index: 1;
+    width: 1265px;
+    position: fixed;
+}
+
+.header table{
+    width: 1000px;
+}
+
+#headerImg{
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 55px;
+}
+
+#message{
+    position: fixed;
+    object-position: bottom right;
+    bottom: 10px;
+    right: 20px;
+}
+
+#headerFeilds:hover{
+    color: #ff6d34;
+}
+
+.division1{    
+    background-color: #f1f9ff;
+    background-image: url("BoldBI images/Vector-1");
+    background-repeat: no-repeat;
+    background-position-y: 212px;
+    box-sizing: border-box;
+    height: 770px;
+    padding-top: 90px;
+}
+
+ul li{
+    list-style-type: none;
+    
+}
+
+.division1 ul{
+    float: left;
+    font-family: sans-serif;
+}
+
+.division1 ul li{
+    height: 290px;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+
+.division1 ul li h2{
+    color: #283a5e;
+}
+
+#sales{
+    color: #3c4d6f;
+}
+
+.division2 h1{
+    text-align: center;
+    padding-right: 25px;
+    padding-top: 35px;
+    color: #283a5e;
+    font-family: sans-serif;
+
+}
+
+.division2 ul{
+    
+    border-right: 100px;               
+    height: 840px;
+    padding: 20px;
+    
+    
+}
+
+.division2 ul li{
+    float: left;
+    border: solid;
+    border-color: #D3E2ED;
+    border-width: 1px;
+    margin-left: 32px;
+    margin-right: -7px;
+    width: 362px;
+    height: 400px;
+    margin-top: 20px;
+    
+    
+}
+
+.division2 ul li h3{
+    margin-left:20px ;
+    color: #283a5e;
+}
+
+.address{
+    margin-left: 20px;
+    font-size: 16px;
+    font-style: inherit;
+    color: #283a5e;
+    font-family: sans-serif;
+}
+
+#form1{
+    margin-left: 670px;
+    margin-right: 100px;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    width: 450px;               
+    box-shadow: 0px 0px 4px 0px grey;
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+#form:hover{
+    border-color: #ff4800;
+}
+
+#form{
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    border-width: 0.2px;
+    border-color: gray;
+    color: grey;             
+}
+
+#submit{
+    background-color:  #ff4800;
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    border-width: 1px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#submit:hover{
+    background-color: #f7dfd6;
+    color: #ff4800;
+}
+
+#terms{
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+#rightArrow{
+    width: 15px;
+}
+
+.footer{
+    height:640px ;
+    position: relative;
+    left: 163px;
+}
+
+#one{
+    width: 20%;
+    float: left;
+    padding-bottom: 300px;
+    font-style: inherit;
+    font-weight: inherit;
+    font-style: 'calibri';
+    line-height: 1;
+}
+
+#two{
+    width: 20%;
+    float: left;
+    padding-bottom: 100px;
+    text-align: left;
+    color: #283a5e;
+    font-family: 'calibri';
+    padding-left: 10px;
+}
+
+#three{
+    width: 20%;
+    float: left;
+    padding-bottom: 68px;
+    text-align: left;
+    color: #283a5e;
+    font-family: 'calibri';
+    padding-left: 10px;
+}
+
+#four{
+    width: 20%;
+    float: left;
+    padding-bottom: 100px;
+    text-align: left;
+    color: #283a5e;
+    font-family: 'calibri';
+    padding-left: 10px;
+}
+
+.division3{
+    float: left;
+    margin-top: 50px;
+    width: 500px;
+    margin-left: 395px;
+    
+}
+.division3 ul li{
+    float: left;
+    padding: 5px;
+}
+a{
+    color: #ff4800;
+}
+#img{
+    width: 60px;
+}
+
+#text{
+    padding-left: 17px;
+    padding-top: 10px;
+    line-height: 27px;
+}
+
+#footer{
+    padding-left: 10%;
+    text-align: center;
+    float: left;
+}
+
+#foot
+{
+    color: red;
+}
+
+#foot:hover
+{
+    text-decoration: none; 
+    color: rgb(66, 8, 8);
+}
+#none
+{
+    width: 16%;
+    float: left;
+    padding-bottom: 300px;
+}
+
+#followimg{
+    font-weight: lighter;
+    font-size: 5px;
+    word-spacing: 10px;
+}
+
+.header table{
+    width: 1000px;}
+
+#headerMan{
+    height: 35px;
+    width: 35px;
+}
+
+.division3{
+    float: left;
+    margin-top: 50px;
+    width: 500px;
+    margin-left: 395px;
+    
+}
+.division3 ul li{
+    float: left;
+    padding: 5px;
+}
+
+#headerFeilds:hover{
+    color: #ff6d34;
+}
+
+
+
+

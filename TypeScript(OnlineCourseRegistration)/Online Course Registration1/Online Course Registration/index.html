@@ -1,0 +1,59 @@
+<html>
+    <head>
+
+        <title>
+            Online Course Registration
+        </title>
+        <link rel="stylesheet" href="Style/style.css">
+        <script src="Script/script.js"></script>
+
+    </head>
+    <body>
+        <div id="home">
+            <h2>Online Course Registration</h2>
+            <button id="newuserregister" type="button" onclick="registration()">New User Registration</button>
+            <button id="login" type="button" onclick="ExistingUser()">LOG IN</button>
+        </div>
+        <br>
+        <br>
+
+        <div id="register">
+            <label>Name :</label><br><input  id="Uname"type="text" placeholder="Enter your name"><br>
+            <label>age :</label><br><input id="Uage" type="number"><br>
+            <label>Ph No :</label><br><input id="Uphno" type="number"><br>
+            <button id="Cregister" type="button" onclick="completeregister()">REGISTER</button>
+            
+        </div>
+        <br>
+        <br>
+
+        <div id="existuser">
+            <label>User ID :</label><input id="confirm" type="text"><br>
+            <button id="conform" onclick="displaycourse()">CONFORM</button>
+            <label id="displayuser"></label>
+        </div>
+        <br>
+        <br>
+
+        <div id="course">
+            <h2>AVAILABLE COURSE PAGE</h2>
+            <select id="selectcourse">
+                <option value="C#">C#</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JS">JS</option>
+                <option value="TS">TS</option>
+            </select>
+            <button id="addcourse" onclick="addcourse()">ADD</button>     <button id="enrolled" onclick="enroll()">ENROLLED COURSE</button>
+            <label id="daysforcourse"></label>
+            <label id="Totaldays"></label>
+        </div>
+        <br>
+        <br>
+
+        <div id="totaldays">
+            <label id="totalDays"></label>
+        </div>
+    </body>
+    
+</html>

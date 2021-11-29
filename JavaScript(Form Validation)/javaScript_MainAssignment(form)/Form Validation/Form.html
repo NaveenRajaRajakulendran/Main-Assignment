@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>
+            Form Validation
+        </title>
+        <link rel="stylesheet" href="CSS Style/formStyle.css">
+        <script type="text/javascript" src="Java Script/FormScript.js"></script> 
+    </head>
+    <body>
+        <form id="form">
+            <h3>submit your application</h3>
+            <h5>for<b>.Net Developer(freshers)</b></h5>
+            <h4>personal iformation</h4>
+           <p>Name as per ID proof<span>*</span><br><input type="text" id="name"></p>
+           <label id="labe1" style="color: red; visibility:hidden">Invalid</label> 
+
+           <p>Father's Name<span>*</span><br><input type="text" id="fathername"></p>
+           <label id="labe2" style="color: red; visibility:hidden">Invalid</label> 
+
+           <p>Email<span>*</span><br><input type="text" id="Email"></p> 
+           <label id="labe3" style="color: red; visibility:hidden">Invalid</label> 
+
+           <p>Date of Birth<span>*</span><br><input type="text" id="dob" placeholder="dd/mm/yyyy"></p>
+           <label id="labe4" style="color: red; visibility:hidden">Invalid</label> 
+
+           <p>Mobile No<br><input type="text" id="mobile"></p> 
+           <label id="labe5" style="color: red; visibility:hidden">Invalid</label> 
+
+           <p>Current address<span>*</span><br><input type="text" id="addr"></p> 
+           <input type="text" id="addressl2" placeholder="Address line 2">
+           <br>
+           <br>
+           <input type="text" id="district" placeholder="chennai"> <select>
+               <option value="tamil nadu">Tamil nadu</option>
+               <option value="andhra pradesh">Andhra Pradesh</option>
+               <option value="kerala">Kerala</option>
+
+           </select>  <input type="text" id="code" placeholder="zipcode">
+           <label id="labe6" style="color: red; visibility:hidden">Invalid</label> 
+
+           <p>permanent address<span>*</span><input type="checkbox"id="check" onclick="checkedfunction()">Same as permanent address</p><input type="text" id="addrp"><p></p>
+           <br>
+           <input type="text" id="addressl2p" placeholder="Address line 2">
+           <br>
+           <br>
+           <input type="text" id="districtp" placeholder="chennai"> <select>
+               <option value="tamil nadu">Tamil nadu</option>
+               <option value="andhra pradesh">Andhra Pradesh</option>
+               <option value="kerala">Kerala</option>
+            </select>  <input type="number" id="codep" placeholder="zip code">
+            <br>
+            <br>
+            <p>upload profile photo<span>*</span>(jpg/png format only)<br>
+            Please upload a photo of yourself.your face should be clearly visible.make sure of the image size does not exceed 500kb</p>
+            <input type="file" id="fileit" value="upload photo" placeholder="upload photo">
+            <button id="submit"onclick="return formprocess()">NEXT</button>
+
+        </form>
+       
+    </body>
+</html>
